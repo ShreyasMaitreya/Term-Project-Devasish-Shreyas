@@ -12,7 +12,7 @@ int pi_calc()
     long int i, n;
     double sum=0.0, term, pi;
 
-    printf("Enter number of terms: ");
+    printf("Enter number of digits: ");
     scanf("%ld", &n);
 
     /* Applying Leibniz Formula */
